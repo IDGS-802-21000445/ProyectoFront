@@ -1,0 +1,204 @@
+.sales {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+  }
+  
+  .search-icon {
+    font-size: 24px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .sales-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .sale-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .sale-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .sale-header {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .sale-header h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .sale-body {
+    margin-top: 10px;
+  }
+  
+  .sale-footer {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .view-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+  }
+  
+  .view-button i {
+    margin-right: 8px;
+  }
+  
+  .view-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .logout-button:hover {
+    background-color: #d32f2f;
+  }
+
+.sales {
+    padding: 20px;
+  }
+  
+  .sale-card {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sale-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sale-body {
+    margin-top: 10px;
+  }
+  
+  .sale-footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .view-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .logout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #c82333;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .modal-body {
+    margin-top: 20px;
+  }
+  
+  .close-modal {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  
